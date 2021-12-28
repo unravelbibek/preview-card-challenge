@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     background-color: hsl(217, 54%, 11%);
+     overflow-x: hidden;
+     display: flex;
+     justify-content: center;
+     font-family: Outfit;
+     font-weight: 300;
+     font-size: 16px;
+
+ }
+
+.centercard{
+margin: 2% 2%;
+}
+ .card{
+     border-radius: 20px;
+     padding: 30px;
+     background-color: hsl(216, 50%, 16%);
+     width: 380px;
+    height:640px;
+ }
+
+
+ .imageholder img{
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+
+ 
+ }
+
+
+
+
+ .bodyupper{
+     color: white;
+ }
+
+ .bodyupper  p {
+     color: #66b8da;
+ }
+
+.equilibriumicon{
+    color: #00fff7;
+
+ }
+
+ .clockicon{
+     color: hsla(215,51%,70%);
+ }
+
+ span.daysleftcolor{
+    color: hsla(215,51%,70%);
+ }
+
+hr{
+    border: none;
+    border-top: 1px solid #98b8e6;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+h2{
+margin-top: 5%;
+font-weight: 400;
+font-size: 20px;
+
+}
+.bodyupper p{
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.equilibriumicon{
+    display: inline-block;
+}
+
+.clockicon{
+    display: inline-block;
+}
+
+.bodyfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.bodyupper p{
+    font-size: 16px;
+}
+
+.clockicon img{
+padding-right: 2px;
+display: inline-block;
+text-align: center;
+}
+
+.equilibriumicon img{
+    padding-right: 2px;
+    display: inline;
+    text-align: center;
+}
+
+img.equilibriumicon{
+    position: relative;
+    top: 4px;
+}
+
+img.clockicon{
+    position: relative;
+    top: 2px;
+}
+
+img.creator{
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+div.cardfooter{
+    margin-top: 10%;
+}
+
+p.cardfooter{
+   display: inline-block;
+   padding-left: 10px;
+   position: relative;
+   bottom: 16px;
+   color: white;
+   font-weight: 400;
+}
+
+p.cardfooter:hover{
+    color: #00fff7;
+
+}
+p.equilibriumicon{
+    font-weight: 400;
+
+}
+p.clockicon{
+    font-weight: 400;
+
+}
